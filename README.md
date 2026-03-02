@@ -69,13 +69,13 @@ This repository is set up as a reusable engineering template (not just a one-off
     ```
     Returned
     ```
-    (.venv) tanyachang@TCdeMacBook-Pro validation-automation-lab % pytest  .[100%]
+    (.venv) ... validation-automation-lab % pytest  .[100%]
     1 passed in 0.00s
-    (.venv) tanyachang@TCdeMacBook-Pro validation-automation-lab % ruff check .
+    (.venv) ... validation-automation-lab % ruff check .
     All checks passed!
-    (.venv) tanyachang@TCdeMacBook-Pro validation-automation-lab % black --check .
-    would reformat /Users/tanyachang/Desktop/Myown/validation-automation-lab/src/validation_lab/__init__.py
-    would reformat /Users/tanyachang/Desktop/Myown/validation-automation-lab/tests/test_smoke.py
+    (.venv) ... validation-automation-lab % black --check .
+    would reformat .../validation-automation-lab/src/validation_lab/__init__.py
+    would reformat .../validation-automation-lab/tests/test_smoke.py
 
     Oh no! 💥 💔 💥
     2 files would be reformatted.
